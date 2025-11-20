@@ -108,7 +108,7 @@ class PredictResponse(BaseModel):
     class_probabilities: Optional[list] = Field(
         None, description="Probabilidad por clase si está disponible"
     )
-    nearest_neighbors_info: Optional[list] = Field(
+    nearest_neighbors_info: Optional[dict] = Field(
         None, description="Distancias/índices de vecinos más cercanos"
     )
 
