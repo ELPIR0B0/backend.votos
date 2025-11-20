@@ -1,0 +1,23 @@
+# Archivos de sistema y temporales
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+.vscode/
+
+# Entornos virtuales
+.env
+.env.*
+.venv/
+venv/
+
+# Datos pesados locales
+notebooks/.ipynb_checkpoints/
+*.csv
+
+# Artefactos de Docker
+*.log
+
+# Archivos creados por pruebas
+.pytest_cache/
